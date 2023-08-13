@@ -1,1 +1,22 @@
+<bug_report>
+    <id>111</id>
+    <summary>The filter is not reset when the 'Filter reset' button is pressed</summary>
+    <steps>
+        <step>Go to exe.ua</step>
+        <step>In the catalog, select the category 'PC components', 'Video cards'</step>
+        <step>Filtering goods by 'graphic chip'. Choose from the list RTX 3060 Ti</step>
+        <step>Press the 'Filter products' button</step>
+        <step>Press the 'Filter reset' button</step>
+    </steps>
+    <expected_result>The filter is reset</expected_result>
+    <actual_result>The filter is not reset</actual_result>
+    <severity>Low</severity>
+    <priority>Medium</priority>
+    <type>Functional</type>
+    <assigned>Artem M</assigned>
+    <state>Open</state>
+    <date_of_creation>01-11-2022</date_of_creation>
+    <environment>Windows 10, Chrome 106.0.5249.119</environment>
+    <attachment>https://...</attachment>
+</bug_report>
 
